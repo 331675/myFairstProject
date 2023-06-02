@@ -1,0 +1,376 @@
+header{
+    padding: 0;
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1{
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+header nav > a{
+    text-decoration: none;
+    color: #777;
+}
+header nav > a:hover{
+    color: #fff;
+}
+header nav form input{
+    width: 1000px;
+    border-radius: 5px;
+    height: 100%;
+    padding: 17px;
+    background-color: #2a2a2a;
+    border: 0;
+}
+footer{
+    background-color: #f2f2f2;
+    padding: 10px 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container span{
+    margin-right: 20px;
+}
+footer .container p{
+    margin: 0;
+}
+a{
+    color: #000;
+}
+.active{
+    color: #2453ff;
+}
+main .dboard-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 56px;
+} 
+main .dboard-list{
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    width: 18.7%;
+    height: 86.5vh;
+}
+main .dboard-list ul{
+    list-style: none;
+}
+main .dboard-list ul li{
+    margin-bottom: 20px;
+}
+main .dboard-list ul li a{
+    text-decoration: none;
+}
+main .dboard-body .dashboard{
+    padding-left: 50px;
+    padding-top: 25px;
+    display: block;
+}
+h2{
+    text-align: left;
+}
+.line{
+    height: 1.5px;
+    width: 1000px;
+    background-color: #e7e7e7;
+    margin: 20px 0;
+}
+main .dboard-body .categories{
+    padding-left: 50px;
+    padding-top: 25px;
+    display: block;
+}
+main .dboard-body .categories .head{
+    display: flex;
+    justify-content: space-between;
+}
+main .dboard-body .categories .head a{
+    text-decoration: none;
+    color: #333;
+    border: 1.8px solid #333;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+main .dboard-body .categories .head a:hover{
+    background-color: #333;
+    color: #eee;
+}
+main .dboard-body .categories table{
+    width: 100%;
+}
+main .dboard-body .categories table td{
+    text-align: center;
+    padding: 10px 0;
+}
+main .dboard-body .categories table tbody tr{
+    border-top: 1px solid #dbdbdb;
+}
+main .dboard-body .categories table thead, tfoot{
+    background-color: #222;
+    color: #fff;
+}
+main .dboard-body .categories table tbody img{
+    width: 80px;
+}
+main .cart table tbody span{
+    font-size: 25px;
+    cursor: pointer;
+}
+main .dboard-body .add-category{
+    display: block;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+main .dboard-body .add-category .head{
+    display: flex;
+    justify-content: space-between;
+}
+main .dboard-body .add-category .head a{
+    text-decoration: none;
+    color: #333;
+    border: 1.8px solid #333;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+main .dboard-body .add-category .head a:hover{
+    background-color: #333;
+    color: #eee;
+}
+main .dboard-body .add-category form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main .dboard-body .add-category form input{
+    display: block;
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+main .dboard-body .add-category form button{
+    display: block;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .dboard-body .add-category form button:hover{
+    background-color: #3f9242;
+}
+main .dboard-body .edit-category{
+    display: block;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+main .dboard-body .edit-category .head{
+    display: flex;
+    justify-content: space-between;
+}
+main .dboard-body .edit-category .head a{
+    text-decoration: none;
+    color: #333;
+    border: 1.8px solid #333;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+main .dboard-body .edit-category .head a:hover{
+    background-color: #333;
+    color: #eee;
+}
+main .dboard-body .edit-category form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main .dboard-body .edit-category form input{
+    display: block;
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+main .dboard-body .edit-category form button{
+    display: block;
+    margin: 10px 0;
+    background-color: #1990ff;
+    color: white;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .dboard-body .edit-category form button:hover{
+    background-color: #147dde;
+}
+main .dboard-body .books{
+    display: block;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+main .dboard-body .books .head{
+    display: flex;
+    justify-content: space-between;
+}
+main .dboard-body .books .head a{
+    text-decoration: none;
+    color: #333;
+    border: 1.8px solid #333;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+main .dboard-body .books .head a:hover{
+    background-color: #333;
+    color: #eee;
+}
+main .dboard-body .books table{
+    width: 100%;
+}
+main .dboard-body .books table td{
+    text-align: center;
+    padding: 10px 0;
+}
+main .dboard-body .books table tbody tr{
+    border-top: 1px solid #dbdbdb;
+}
+main .dboard-body .books table thead, tfoot{
+    background-color: #222;
+    color: #fff;
+}
+main .dboard-body .books table tbody img{
+    width: 80px;
+}
+main .cart table tbody span{
+    font-size: 25px;
+    cursor: pointer;
+}
+main .dboard-body .add-book{
+    display: block;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+main .dboard-body .add-book .head{
+    display: flex;
+    justify-content: space-between;
+}
+main .dboard-body .add-book .head a{
+    text-decoration: none;
+    color: #333;
+    border: 1.8px solid #333;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+main .dboard-body .add-book .head a:hover{
+    background-color: #333;
+    color: #eee;
+}
+main .dboard-body .add-book form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main .dboard-body .add-book form input,textarea,select{
+    display: block;
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+main .dboard-body .add-book form option:first{
+    color: #a7a7a7;
+}
+main .dboard-body .add-book form button{
+    display: block;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .dboard-body .add-book form button:hover{
+    background-color: #3f9242;
+}
+main .dboard-body .edit-book{
+    display: block;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+main .dboard-body .edit-book .head{
+    display: flex;
+    justify-content: space-between;
+}
+main .dboard-body .edit-book .head a{
+    text-decoration: none;
+    color: #333;
+    border: 1.8px solid #333;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+main .dboard-body .edit-book .head a:hover{
+    background-color: #333;
+    color: #eee;
+}
+main .dboard-body .edit-book form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+main .dboard-body .edit-book form input,textarea,select{
+    display: block;
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 7px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+main .dboard-body .edit-book form option:first{
+    color: #a7a7a7;
+}
+main .dboard-body .edit-book form img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+main .dboard-body .edit-book form button{
+    display: block;
+    margin: 10px 0;
+    background-color: #1990ff;
+    color: white;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .dboard-body .edit-book form button:hover{
+    background-color: #147dde;
+}
